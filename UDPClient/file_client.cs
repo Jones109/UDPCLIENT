@@ -24,20 +24,15 @@ namespace UDPClient
 
                 byte[] CommandBytes = ReadLineAndConvert();
 
-
-                UdpClient Client = new UdpClient();
+                
+                UdpClient Client = new UdpClient(PORT);
                 IPEndPoint ClientEnd = new IPEndPoint(IPAddress.Parse(ServerIP), PORT);
 
                 Client.Connect(ClientEnd);
                 Client.Send(CommandBytes, CommandBytes.Length);
-                Client.Close();
-
-                UdpClient Server = new UdpClient(PORT);
-                IPEndPoint ServerEnd = new IPEndPoint(IPAddress.Any, PORT);
-
-                string RecievedString = RecieveByteAndConvert(Server, ServerEnd);
+				string RecievedString = RecieveByteAndConvert(Client, ClientEnd);
+                Client.Close();                
                 
-				Console.WriteLine("Server uptime in seconds: ");
                 Console.WriteLine(RecievedString);
             }
 
