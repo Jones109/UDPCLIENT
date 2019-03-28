@@ -37,7 +37,7 @@ namespace UDPClient
 
                 string RecievedString = RecieveByteAndConvert(Server, ServerEnd);
                 
-                Console.WriteLine("Data recieved:");
+				Console.WriteLine("Server uptime in seconds: ");
                 Console.WriteLine(RecievedString);
             }
 

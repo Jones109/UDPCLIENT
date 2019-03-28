@@ -4,3 +4,9 @@
 /root/Projects/UDPClient/UDPClient/obj/x86/Debug/UDPClient.csproj.CoreCompileInputs.cache
 /root/Projects/UDPClient/UDPClient/obj/x86/Debug/UDPClient.exe
 /root/Projects/UDPClient/UDPClient/obj/x86/Debug/UDPClient.pdb
+/root/Desktop/MeasureClient/UDPCLIENT/UDPClient/bin/Debug/UDPClient.exe
+/root/Desktop/MeasureClient/UDPCLIENT/UDPClient/bin/Debug/UDPClient.pdb
+/root/Desktop/MeasureClient/UDPCLIENT/UDPClient/obj/x86/Debug/UDPClient.csprojResolveAssemblyReference.cache
+/root/Desktop/MeasureClient/UDPCLIENT/UDPClient/obj/x86/Debug/UDPClient.csproj.CoreCompileInputs.cache
+/root/Desktop/MeasureClient/UDPCLIENT/UDPClient/obj/x86/Debug/UDPClient.exe
+/root/Desktop/MeasureClient/UDPCLIENT/UDPClient/obj/x86/Debug/UDPClient.pdb
